@@ -7,7 +7,7 @@ const App = () => {
     <div>
       <Rating
         heading="How do you feel about React?"
-        color="red"
+        color="purple"
         feedbackMessages={[
           "What IS this!?",
           "Not my cup of tea",
