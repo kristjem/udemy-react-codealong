@@ -11,7 +11,7 @@ const Star = ({
     <span
       onClick={() => ratingClick(star)}
       onMouseEnter={() => hoverEnter(star)}
-      onMouseLeave={() => hoverLeave(0)}
+      onMouseLeave={hoverLeave}
       className="star"
       style={{ color: star <= (hover || rating) ? color : "#ccc" }}
     >
